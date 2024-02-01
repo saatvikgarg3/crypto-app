@@ -1,0 +1,349 @@
+.fulldiv{
+    background-color: #191d28;
+    padding: 10px;
+    /* height: 100vh; */
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.topmost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+.title{
+    color: rgb(5, 246, 230);
+    font-size: 30px;
+    margin-left: 3px;
+    padding-left: 15px ;
+    padding-top: 3px;
+    max-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.button {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    margin-left: 20px;
+    background-color: rgba(169, 169, 169, 0.2);
+    border-radius: 7px;
+    width: 80px;
+    height: 35px;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative; /* Ensure positioning context for the absolute dropdown */
+  }
+  
+  .button:hover {
+    background-color: rgba(198, 197, 197, 0.5);
+  }
+  
+  .dropdown-content {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 100%;
+    left: 0; /* Adjust the left position */
+    z-index: 1;
+    color: black;
+    font-size: large;
+    width: 90px;
+    text-align: center;
+  }
+  
+
+#button3{
+    width: 100px;
+    margin-right: 4px;
+}
+
+.text{
+    margin-left: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.buttonsvg{
+    margin-top: 4px;
+}
+.dropdown-content {
+    background-color: #ffffff; /* White background color */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: top left;
+    z-index: 1; /* Ensure the dropdown is on top of other elements */
+  }
+.topleftthings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.outer-circle {
+    position: relative;
+    width: 45px; 
+    height: 45px;
+    background-color:rgb(5, 246, 230);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .inner-circle {
+    width: 40px; 
+    height: 40px; 
+    background-color: rgba(23, 18, 29, 0.953); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .circletext {
+    color:rgb(5, 246, 230);
+    font-size: 20px; 
+    cursor: pointer;
+  }
+
+.telegrambutton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgb(5, 246, 230);
+    border-radius: 10px;
+    margin: 5px;
+    height: 35px;
+    width: 200px;
+    padding: 4px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+.telegramsvg{
+    margin: 3px;
+    margin-top: 10px;
+}
+.telegramtext{
+    padding-top: 3px;
+    margin-right: 6px;
+}
+
+.mode{
+    margin-left:15px ;
+    margin-right:15px ;
+    cursor: pointer;
+    
+}
+.mode svg{
+    /* size: 30px; */
+    height: 50px;
+    width: 60px;
+    color: rgb(5, 246, 230);
+}
+.belowtopmost{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titletopmost{
+    margin-top: 20px;
+    color: rgba(198, 197, 197, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 25px;
+}
+
+.datavalues{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.value{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent{
+    color: rgb(5, 246, 230);
+    font-size: 40px;
+    padding: 3px;
+    font-weight: 500;
+}
+.time{
+    color: rgba(198, 197, 197, 0.8);
+    padding: 2px;
+}
+
+.rupeesvalue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.belowdatvalues{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgba(198, 197, 197, 0.8);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.headings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 7px;
+}
+.headings div {
+    flex: 1; /* Distribute available space equally among child elements */
+  }
+#first{
+    margin-left: 20px;
+}
+#platform{
+    margin-left: -100px;
+}
+#ltp{
+    margin-left: -20px;
+    margin-right: -40px;
+}
+#diff{
+    margin-left: 0px;
+    padding-left: 20px;
+}
+#bsp{
+    margin-left: 100px;
+}
+#last{
+    /* margin-left: -40px;
+    padding-left: 50px; */
+    margin-right: -10px;
+}
+.headingtext{
+    color: rgba(198, 197, 197, 0.7);
+    font-size: 30px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 5px; */
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 2px;
+  }
+  
+  .datadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    background-color: rgba(198, 197, 197, 0.1);
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .datadata:hover {
+    background-color: rgba(198, 197, 197, 0.5);
+  }
+  
+  .datadata div {
+    flex: 1; /* Distribute available space equally among child elements */
+  }
+  
+  #datadatafirst {
+    margin-left: 7px;
+  }
+  #datadataplatform {
+    margin-left: -80px;
+    margin-right: 10px; /* Adjust the left margin for the platform */
+  }
+  #datadatabsp{
+    margin-left: 70px;
+    /* margin-right: 40px; */
+  }
+  #datadatadiff {
+    margin-left: 70px; /* Adjust the right margin for the difference */
+  }
+  
+  #datadatasave {
+    margin-right: 14px;
+  }
+  
+  .datadatatext {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  .datadatatext.positive {
+    color: green; /* Green color for positive values */
+  }
+  
+  .datadatatext.negative {
+    color: red; /* Red color for negative values */
+  }
+.fixed-button {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Center the button precisely */
+    background-color: #012b33; /* Your button background color */
+    color: rgb(5, 246, 230); /* Your button text color */
+    padding: 10px;
+    border: 2px solid rgb(5, 246, 230);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add smooth transitions */
+}
+
+.fixed-button:hover {
+    background-color: rgb(5, 246, 230); /* Adjust the color on hover */
+    color: #012b33; /* Adjust the text color on hover */
+}
